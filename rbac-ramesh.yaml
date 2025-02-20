@@ -4,6 +4,6 @@ metadata:
   name: expense-admin
   namespace: expense
 rules:
-  apiGroup: ["*"]
+- apiGroup: ["*"]
   resources: ["*"]
   verbs: ["*"]
