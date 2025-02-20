@@ -17,4 +17,4 @@ data:
     - groups:
       - expense-trainee
       userarn: arn:aws:iam::339712874850:user/suresh
-      user: suresh
+      username: suresh
