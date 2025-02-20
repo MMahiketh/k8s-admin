@@ -19,5 +19,5 @@ roleRef:
   name: expense-trainee
 subjects:
 - kind: User
-  apiVersion: rbac.authorization.k8s.io
+  apiGroup: rbac.authorization.k8s.io
   name: suresh
