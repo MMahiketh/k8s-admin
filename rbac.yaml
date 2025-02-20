@@ -4,6 +4,6 @@ metadata:
   name: expense-trainee
   namespace: expense
 rules:
-  apiGroups: [""]
+- apiGroups: [""]
   resources: ["pods"]
   verbs: ["list", "get", "watch"]
