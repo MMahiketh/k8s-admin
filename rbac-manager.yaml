@@ -3,6 +3,6 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: expense-manager
 rules:
-- apiGroup: [""]
+- apiGroups: [""]
   resources: ["node", "persistantvolume", "namespace"]
   verbs: ["list", "get", "watch"]
