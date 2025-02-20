@@ -4,8 +4,8 @@ metadata:
   name: expense-manager
 rules:
 - apiGroups: [""]
-  resources: ["node", "persistantvolume", "namespace"]
-  verbs: ["list", "get", "watch"]
+  resources: ["nodes", "persistentvolumes", "namespaces"]
+  verbs: ["get", "list", "watch"]
 ---
 kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
